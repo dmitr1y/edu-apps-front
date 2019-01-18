@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { UiModule } from './ui/ui.module';
 import { AboutComponent } from './about/about.component';
 import { EduAppsComponent } from './edu-apps/edu-apps.component';
+import { AppsListComponent } from './edu-apps/apps-list/apps-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
-    EduAppsComponent
+    EduAppsComponent,
+    AppsListComponent
   ],
   imports: [
     BrowserModule,
